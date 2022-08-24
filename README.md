@@ -2,6 +2,9 @@
 
 Node.js wrapper for smbclient
 
+## Fork notes
+
+This fork project using to fix some strange problem when calling smbclient, on future it should be merge to original project.
 ## Requirements
 
 Requires Node.js 10+
