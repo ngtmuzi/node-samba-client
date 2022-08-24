@@ -1,6 +1,6 @@
 {
   "name": "@ngtmuzi/samba-client",
-  "version": "5.0.2-fix",
+  "version": "5.0.2-fix.1",
   "description": "wrapper for smbclient",
   "main": "index.js",
   "types": "index.d.ts",

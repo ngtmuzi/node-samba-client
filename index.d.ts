@@ -1,4 +1,4 @@
-declare module "samba-client" {
+declare module "@ngtmuzi/samba-client" {
   interface ISambaClientOptions {
     readonly address: string;
     readonly username?: string;
