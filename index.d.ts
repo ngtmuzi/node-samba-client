@@ -6,6 +6,7 @@ declare module "samba-client" {
     readonly domain?: string;
     readonly port?: number;
     readonly timeout?: number;
+    readonly execTimeout?: number;
     readonly maxProtocol?: string;
     readonly maskCmd?: boolean;
   }

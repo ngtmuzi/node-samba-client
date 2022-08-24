@@ -19,6 +19,8 @@ let client = new SambaClient({
   domain: 'WORKGROUP', // not required
   maxProtocol: 'SMB3', // not required
   maskCmd: true, // not required, defaults to false
+  timeout: 30, // not required, smbclient's param, secounds of task timeout
+  execTimeout: 30000, // not required, execa's param, milliseconds of process timeout
 });
 
 // send a file

@@ -22,6 +22,7 @@ class SambaClient {
     this.domain = options.domain;
     this.port = options.port;
     this.timeout = options.timeout;
+    this.execTimeout = options.execTimeout;
     // Possible values for protocol version are listed in the Samba man pages:
     // https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html#CLIENTMAXPROTOCOL
     this.maxProtocol = options.maxProtocol;
@@ -158,6 +159,7 @@ class SambaClient {
     const options = {
       all: true,
       cwd: workingDir || "",
+      timeout: this.execTimeout || 0,
     };
 
     try {
